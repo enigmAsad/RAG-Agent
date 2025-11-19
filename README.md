@@ -2,8 +2,6 @@
 
 **A high-performance Agentic RAG starter kit using LangGraph, LangChain, and Groq.**
 
-![Banner](docs/image/banner.png)
-
 ## Table of Contents
 
 - [Features](#features)
@@ -88,16 +86,12 @@ The project uses a modular architecture powered by LangGraph:
 *   **VectorStore**: ChromaDB acts as the knowledge base.
 *   **Embeddings**: HuggingFace models convert text to vectors.
 
-![Architecture Diagram](docs/image/architecture.png)
-
 ### Directory Structure
 
 ```
 /
 ├── agentic-rag.ipynb    # Main entry point and logic
 ├── requirements.txt     # Python dependencies
-├── docs/
-│   └── image/           # Documentation assets
 └── README.md            # Project documentation
 ```
 
