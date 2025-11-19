@@ -1,28 +1,28 @@
 # Agentic RAG
 
-🚀 **A high-performance Agentic RAG starter kit using LangGraph, LangChain, and Groq.**
+**A high-performance Agentic RAG starter kit using LangGraph, LangChain, and Groq.**
 
 ![Banner](docs/image/banner.png)
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Configuration](#-configuration)
-- [Architecture](#-architecture)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Architecture](#architecture)
+- [Contributing](#contributing)
+- [License](#license)
 
-## ✨ Features
+## Features
 
-*   **⚡ High-Speed Inference**: Utilizes [Groq](https://groq.com/) with `Gemma2-9b-It` for near-instant LLM responses.
-*   **🤖 Agentic Workflow**: Built on [LangGraph](https://langchain-ai.github.io/langgraph/) for stateful, cyclic agent orchestration.
-*   **🧠 Advanced Retrieval**: Integrates **ChromaDB** and **HuggingFace Embeddings** (`all-MiniLM-L6-v2`) for semantic search.
-*   **🛠️ Extensible Tools**: Pre-configured with `WebBaseLoader` and `RecursiveCharacterTextSplitter` for dynamic data ingestion.
-*   **📊 Observability**: Full integration with **LangSmith** for tracing and debugging agent steps.
+*   **High-Speed Inference**: Utilizes [Groq](https://groq.com/) with `Gemma2-9b-It` for near-instant LLM responses.
+*   **Agentic Workflow**: Built on [LangGraph](https://langchain-ai.github.io/langgraph/) for stateful, cyclic agent orchestration.
+*   **Advanced Retrieval**: Integrates **ChromaDB** and **HuggingFace Embeddings** (`all-MiniLM-L6-v2`) for semantic search.
+*   **Extensible Tools**: Pre-configured with `WebBaseLoader` and `RecursiveCharacterTextSplitter` for dynamic data ingestion.
+*   **Observability**: Full integration with **LangSmith** for tracing and debugging agent steps.
 
-## 📦 Installation
+## Installation
 
 1.  **Clone the repository:**
 
@@ -44,7 +44,7 @@
     pip install -r requirements.txt
     ```
 
-## 🚀 Usage
+## Usage
 
 This project is structured as a Jupyter Notebook for interactive development and testing.
 
@@ -66,7 +66,7 @@ This project is structured as a Jupyter Notebook for interactive development and
 
     *(Future updates will include the full graph execution flow)*
 
-## ⚙️ Configuration
+## Configuration
 
 Create a `.env` file in the root directory and add your API keys:
 
@@ -80,7 +80,7 @@ LANGCHAIN_TRACING_V2=true
 LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 The project uses a modular architecture powered by LangGraph:
 
@@ -101,7 +101,7 @@ The project uses a modular architecture powered by LangGraph:
 └── README.md            # Project documentation
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -111,6 +111,6 @@ Contributions are welcome! Please follow these steps:
 4.  Push to the branch (`git push origin feature/amazing-feature`).
 5.  Open a Pull Request.
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
